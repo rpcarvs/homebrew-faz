@@ -2,25 +2,25 @@ class Faz < Formula
   desc "Local task tracker for agent workflows"
   homepage "https://github.com/rpcarvs/faz"
   license "MIT"
-  version "0.8.2"
+  version "0.8.3"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rpcarvs/faz/releases/download/v0.8.2/faz_0.8.2_darwin_arm64.tar.gz"
-      sha256 "f897c86766970dc86dbe65bfd39c2d79d91b8ca09eac6c2936f7d34eb7897aef"
+      url "https://github.com/rpcarvs/faz/releases/download/v0.8.3/faz_0.8.3_darwin_arm64.tar.gz"
+      sha256 "cae4540fc4f5723daca841bc45e999369af5b0b674d9526768c6de1f966a38b2"
     else
-      url "https://github.com/rpcarvs/faz/releases/download/v0.8.2/faz_0.8.2_darwin_amd64.tar.gz"
-      sha256 "e7d290b1756a02e42a94c34360c5fd5ed734b127d8615620b22bff3cf2892dc3"
+      url "https://github.com/rpcarvs/faz/releases/download/v0.8.3/faz_0.8.3_darwin_amd64.tar.gz"
+      sha256 "48fafb942dd5fe9585fefe4d4c2e1aaaa87e1bfeba50b764e202349a31ae8d7e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/rpcarvs/faz/releases/download/v0.8.2/faz_0.8.2_linux_arm64.tar.gz"
-      sha256 "055153a0f58c1794abf67954aba3fd8160436501ae4762cb792ef64ebbd22929"
+      url "https://github.com/rpcarvs/faz/releases/download/v0.8.3/faz_0.8.3_linux_arm64.tar.gz"
+      sha256 "f0e7013df8dd314b8870feea513024d64852993817996952621d918a564905ab"
     else
-      url "https://github.com/rpcarvs/faz/releases/download/v0.8.2/faz_0.8.2_linux_amd64.tar.gz"
-      sha256 "d69555dbc49a50dc0da410723ad649beb97583f00bbd21faf42899b411c218ac"
+      url "https://github.com/rpcarvs/faz/releases/download/v0.8.3/faz_0.8.3_linux_amd64.tar.gz"
+      sha256 "c15b67225018723ed3089f2d47243f1fe78199f4a8ce999c0c250d62d9635947"
     end
   end
 
